@@ -19,7 +19,7 @@ except:
 
 options = {
 	"name":"emptyproject1",
-	"version":"0.0.1",
+	"version":"0.1.0",
 	"scripts":[],
 	"entry_points":{'console_scripts': []},
 	"author":"cole wilson",

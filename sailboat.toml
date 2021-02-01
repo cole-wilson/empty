@@ -13,7 +13,9 @@ description = ""
 url = "https://github.com/cole-wilson/empty"
 keywords = ""
 license = "none"
-latest_build = "0.0.1+43c3eda.2"
+latest_build = "0.1.0"
+release-notes = "a"
+latest_release = "0.0.1"
 
 
 # Resource Setup:
@@ -51,6 +53,7 @@ bundle_id = "com.colewilson.emptyproject1"
 # Other:
 [git]
 github = "cole-wilson/empty"
+brew = "cole-wilson/homebrew-taps"
 
 
 # Thank you for using Sailboat!
