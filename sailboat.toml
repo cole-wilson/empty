@@ -1,0 +1,56 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "empty_project"
+short_name = "emptyproject1"
+email = "cole@colewilson.xyz"
+author = "cole wilson"
+short_description = "empty project for sailboat testing"
+description = ""
+url = "https://github.com/cole-wilson/empty"
+keywords = ""
+license = "none"
+latest_build = "0.0.1+43c3eda.2"
+
+
+# Resource Setup:
+[resources]
+icns = "icon.icns"
+data_files = []
+modules = []
+file = "main.py"
+no_import = []
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.homebrew]
+
+[build.pyinstaller]
+_run = false
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.emptyproject1"
+
+[build.pypi.commands]
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+[release.github_release]
+
+
+# Other:
+[git]
+github = "cole-wilson/empty"
+
+
+# Thank you for using Sailboat!
